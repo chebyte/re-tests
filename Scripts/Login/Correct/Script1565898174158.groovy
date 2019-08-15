@@ -14,9 +14,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Page_Google/input_Iniciar sesin_q'), 'sadsad')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_sadsad - Buscar con Google/div_The Rolling Stones  Sad Sad Sad Lyrics  Genius Lyrics'))
+WebUI.navigateToUrl('https://hashdog.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_Hashdog Software Development Agency/a_More'))
 
 WebUI.closeBrowser()
 
