@@ -14,11 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://hashdog.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Hashdog Software Development Agency/a_More'))
+WebUI.click(findTestObject('Page_Hashdog Software Development Agency/a_More'))
 
 WebUI.closeBrowser()
 
